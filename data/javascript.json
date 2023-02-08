@@ -1,0 +1,56 @@
+{
+    "questions": [
+        {
+            "question": "What is JavaScript?",
+            "answer": "JavaScript is a high-level, dynamic, interpreted programming language that is commonly used for creating interactive and responsive web pages. It is often used in conjunction with HTML and CSS to create dynamic and interactive web applications."
+        },
+        {
+            "question": "What can JavaScript be used for?",
+            "answer": "JavaScript can be used for a wide range of tasks, including: creating dynamic web pages, manipulating the Document Object Model (DOM), validating forms, creating interactive elements, like pop-ups and drop-down menus, creating animations, handling events, and much more."
+        },
+        {
+            "question": "How does JavaScript interact with HTML and CSS?",
+            "answer": "JavaScript can interact with HTML and CSS in a number of ways. It can modify the content and styles of HTML elements dynamically, respond to user events, like clicks and hover, and update the styles and layout of a page based on the size of the screen or the user's input."
+        },
+        {
+            "question": "What is an event in JavaScript?",
+            "answer": "An event in JavaScript is an occurrence that happens within the web page or the browser, like a user clicking a button, hovering over an element, or resizing the window. JavaScript can listen for these events and execute code in response to them."
+        },
+        {
+            "question": "What is an array in JavaScript?",
+            "answer": "An array in JavaScript is an ordered collection of values. Each value in an array is called an element, and the elements in an array can be accessed by their index, which is a number that represents their position in the array. Arrays can hold any type of value, including numbers, strings, objects, and other arrays."
+        },
+        {
+            "question": "What is a loop in JavaScript?",
+            "answer": "A loop in JavaScript is a control structure that allows you to repeat a block of code a specified number of times or until a certain condition is met. There are two main types of loops in JavaScript: for loops and while loops. For loops are used to repeat a block of code a specified number of times, and while loops are used to repeat a block of code until a specified condition is met."
+        },
+        {
+            "question": "What is a function in JavaScript?",
+            "answer": "A function in JavaScript is a reusable block of code that can accept inputs (known as arguments), and return a value. Functions can be called from anywhere in your code, making it easy to reuse code and reduce the amount of duplicate code in your projects."
+        },
+        {
+            "question": "What is an object in JavaScript?",
+            "answer": "An object in JavaScript is a collection of properties, where each property has a name and a value. Objects are a fundamental part of JavaScript, and they can be used to model real-world objects, like a person, a car, or a bank account. Objects can also be used to create custom data types in JavaScript."
+        },
+        {
+            "question": "What is a closure in JavaScript?",
+            "answer": "A closure in JavaScript is an inner function that has access to the variables in the outer function's scope even after the outer function has returned. Closures are a powerful feature of JavaScript and are commonly used to create private variables, to build and return functions with specific behavior, and to implement powerful abstractions."
+        },
+        {
+            "question": "How do closures work in JavaScript?",
+            "answer": "Closures work by capturing variables from the outer function's scope and making them available to the inner function even after the outer function has returned. The inner function retains a reference to these captured variables, allowing it to access their values even after the outer function has returned."
+        },
+        {
+            "question": "Why use closures in JavaScript?",
+            "answer": "Closures are a useful tool for creating abstractions and for implementing more complex and powerful patterns in your code. By using closures, you can create functions with private variables and state, build functions with specific behavior, and create other powerful abstractions that can simplify your code and make it more maintainable."
+        },
+        {
+            "question": "What is a closure in the context of a loop in JavaScript?",
+            "answer": "A closure in the context of a loop in JavaScript occurs when an inner function within a loop has access to the loop variable even after the loop has completed. This can cause unexpected behavior and can lead to bugs if not handled correctly. To avoid these issues, it is often recommended to use a separate closure for each iteration of the loop, or to use an IIFE (Immediately Invoked Function Expression) to create a new scope for each iteration of the loop."
+        },
+        {
+            "question": "What is an IIFE (Immediately Invoked Function Expression) in JavaScript?",
+            "answer": "An IIFE (Immediately Invoked Function Expression) in JavaScript is a function that is immediately invoked as soon as it is defined. IIFEs are commonly used to create a new scope, to avoid naming collisions and to create private variables. They are written as an anonymous function expression, immediately followed by a pair of parentheses, which cause the function to be immediately invoked."
+        }
+    ]
+}

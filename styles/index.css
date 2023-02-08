@@ -1,0 +1,158 @@
+/* Assigning font-family to all  */
+* {
+    font-family: 'Urbanist', 'sans';
+}
+
+body {
+    background-color: #94d8cd;
+}
+
+
+.navbar {
+    padding: 1.5rem 2rem;
+    background-color: #94d8cd !important;    
+}
+
+
+
+/* Nav-logo */
+.logo-name {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #4C076B;
+}
+
+/* Styling Nav link */
+.nav-link {
+    color: #4C076B;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem !important;
+    font-weight: 600;
+    margin: 0rem 0.2rem;
+    border-radius: 2rem;
+}
+
+/* Adding hover to nav-links */
+.nav-link:hover {
+    background-color: #4C076B;
+    color: aliceblue;
+}
+
+/* Styling dropdown menus  */
+.dropdown-item {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* Adding hover to them */
+.dropdown-item:hover {
+   background-color: #4C076B;
+   color: aliceblue;
+}
+
+
+/* Adding Space to the main Home Container */
+.main-container {
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+
+
+/* Aligning the text section */
+.main-text  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.4rem;
+}
+
+/* A Utility class: Can be used whenever a heading is required  */
+.main-head {
+    font-size: 3rem;
+    color: #4C076B;
+    text-align: center;
+    font-weight: 600;
+
+
+}
+
+
+/* Styling para-graph  */
+.main-para {
+    font-size: 1.2rem;
+    color: #4b434e;
+    font-weight: 500;
+}
+
+
+/* Styling Button of Main section  */
+.main-btn {
+    background-color: #4C076B;
+    color: aliceblue;
+    border: none;
+    border-radius: 1rem;
+    font-size:1.1rem;
+}
+
+
+/* Adding hover */
+.main-btn:hover {
+    background-color: #3f065a;
+    color: aliceblue;
+}
+
+/* Home styling ends  */
+
+
+
+/* Projects Page Styling Starts */
+
+.project {
+    background-color: #13324e;
+}
+/* Styling Project Card Title */
+.project-title {
+    font-family: 'poppins';
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+/* Text in Project Cards */
+.project-text {
+    font-size: 1rem;
+    color: aliceblue;
+    font-weight: 500;
+}
+
+/* Adding 3D effect to cards using box shadow at hover */
+.project:hover {
+    box-shadow: 0 10px 40px -15px #000008;
+}
+
+/* Project Styling ends  */
+
+
+/* Learning Pages Styling */
+
+.question-head {
+    font-weight:bolder;
+    color: #4C076B !important;
+}
+
+.accordion-button:focus {
+    border-color: #3f065a ;
+}
+
+
+
+/* Footer Styling */
+.footer {
+    font-size: 1rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-around;
+    padding: 0.3rem;
+}
+/* Footer Styling ends */

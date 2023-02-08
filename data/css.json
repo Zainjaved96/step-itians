@@ -1,0 +1,52 @@
+{
+    "questions": [
+        {
+            "question": "What is CSS and how to use it to style pages?",
+            "answer": "CSS (Cascading Style Sheets) is a styling language used to describe the look and layout of a web page. It is used to add styles and formatting to HTML elements, such as colors, fonts, and spacing. CSS can be added to an HTML page using inline, internal, or external style sheets. To declare a style, selectors and declarations are used to target specific HTML elements and specify the styles for those elements."
+        },
+        {
+            "question": "What are the differences among inline, internal, and external style sheets?",
+            "answer": "Inline styles are added directly to HTML elements using the `style` attribute. Internal style sheets are added to the `<head>` section of an HTML page using the `<style>` tag. External style sheets are separate files with a .css extension and are linked to an HTML page using the `<link>` tag in the `<head>` section. External style sheets allow for styles to be reused across multiple pages, making it easier to maintain and update styles."
+        },
+        {
+            "question": "What are CSS properties?",
+            "answer": "CSS properties are the specific styles that can be applied to HTML elements. Examples of CSS properties include font properties (e.g. font-size, font-family), controlling text with CSS (e.g. text-align, text-transform), styling links (e.g. color, text-decoration), styling backgrounds (e.g. background-color, background-image), and styling tables (e.g. border-collapse, border-spacing)."
+        },
+        {
+            "question": "What is the use of multiple classes on a single element?",
+            "answer": "Multiple classes can be added to a single HTML element to layer on different styles, creating more modular code. This allows for more flexible and reusable styles, as styles from multiple classes can be combined to achieve a desired effect. By using multiple classes, styles can be easily added or removed, reducing the need for extensive updates to the CSS code."
+        },
+        {
+            "question": "What are the different color values available to use in CSS?",
+            "answer": "CSS provides several options for specifying colors, including keyword values (e.g. red, blue), hexadecimal values (e.g. #FF0000, #0000FF), RGB values (e.g. rgb(255, 0, 0), rgb(0, 0, 255)), and HSL values (e.g. hsl(0, 100%, 50%), hsl(240, 100%, 50%)). The choice of color value will depend on the specific requirements and preferences of the design."
+        },
+        {
+            "question": "What are the different length values available to use in CSS?",
+            "answer": "CSS provides several options for specifying lengths, including pixels (e.g. 20px), percentages (e.g. 20%), and em units (e.g. 2em). Pixels provide a fixed size, percentages are relative to the size of the parent element, and em units are relative to the font size of the element."
+        },
+        {
+            "question": "What is the box model and why is it important?",
+            "answer": "The box model is a fundamental concept in CSS that describes the rectangular boxes that are generated for elements in the document tree and how they are rendered on the page. It specifies the size, padding, borders, and margins of an element and how they interact with each other. It is important because understanding the box model helps you to correctly size, position, and lay out elements on a web page."
+        },
+        {
+            "question": "How to change the size of elements including the height and width in CSS?",
+            "answer": "The height and width of elements can be changed using the CSS `height` and `width` properties. These properties can be set in pixels, percentages, or other length units. For example, to set the width of an element to 300 pixels, you would write `width: 300px;` in your CSS code."
+        },
+        {
+            "question": "How to add margin, padding, and borders to elements?",
+            "answer": "Margin, padding, and borders can be added to elements in CSS by using the margin, padding, and border properties respectively. For example, to add a margin of 10 pixels to an element, you can use the following code: \n\nelement {\n margin: 10px;\n}\n\nSimilarly, you can add padding and borders using the padding and border properties respectively.\n\nThe box-sizing property can be used to change how the size of an element is calculated. By default, the box-sizing property is set to content-box, which means that the size of an element only includes its content and not its padding or border. If you set the box-sizing property to border-box, the size of an element will include its content, padding, and border."
+        },
+        {
+            "question": "How do you change the box-sizing of elements in CSS and what are the effects on the box model?",
+            "answer": "You can change the box-sizing of elements in CSS by using the `box-sizing` property. The default value is `content-box`, which means the width and height of an element only apply to its content. The other value is `border-box`, which means the width and height of an element include its padding and borders. The effect on the box model is that it can change the size of elements on a web page and how they interact with other elements."
+        },
+        {
+            "question": "What is CSS positioning?",
+            "answer": "CSS positioning is the process of determining how elements are positioned on a web page. You can use the `position` property in CSS to specify the position of an element relative to its default position in the normal flow of the document or relative to its nearest positioned ancestor. The values for the `position` property are `static`, `relative`, `absolute`, and `fixed`."
+        },
+        {
+            "question": "What is CSS layout designing?",
+            "answer": "CSS layout designing is the process of using CSS to control the layout of elements on a web page. This includes controlling the size, position, and arrangement of elements, as well as defining how elements should respond to different screen sizes and device types."
+        }
+    ]
+}

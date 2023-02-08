@@ -1,0 +1,62 @@
+{
+    "questions": [
+        {
+          "question": "Introduction to HTML",
+          "answer": "HTML (Hypertext Markup Language) is the standard markup language for creating web pages and web applications. It provides the structure and content of web pages and is used in conjunction with other technologies such as CSS and JavaScript to create dynamic and interactive web pages."
+        },
+        {
+          "question": "Basic Structure of an HTML page",
+          "answer": "The basic structure of an HTML page includes the following elements: DOCTYPE declaration, HTML tag, head tag, title tag, and body tag. The head section includes meta information about the document, while the body section contains the main content of the page."
+        },
+        {
+          "question": "Text formatting tags in HTML",
+          "answer": "Text formatting tags in HTML are used to format the text content of a web page. Some common text formatting tags include the following: `<p>` for paragraphs, `<h1>` to `<h6>` for headings, `<strong>` for bold text, `<em>` for italic text, `<br>` for line breaks, and `<hr>` for horizontal lines."
+        },
+        {
+          "question": "Lists in HTML",
+          "answer": "HTML supports two types of lists: ordered lists and unordered lists. Ordered lists are represented using the `<ol>` tag and each list item is denoted using the `<li>` tag. Unordered lists are represented using the `<ul>` tag and each list item is denoted using the `<li>` tag. Lists can be nested to create sublists."
+        },
+        {
+          "question": "HTML Links and navigation",
+          "answer": "HTML links are created using the `<a>` tag and allow users to navigate between web pages. The `<a>` tag has a `href` attribute that specifies the destination URL. Links can be added to text or images and can open in the same tab or a new tab, depending on the value of the `target` attribute."
+        },
+        {
+          "question": "Adding images to web pages",
+          "answer": "Images can be added to HTML pages using the `<img>` tag. The `<img>` tag has a `src` attribute that specifies the URL of the image file. The `alt` attribute is used to provide a text description of the image for accessibility purposes."
+        },
+        {
+          "question": "Using images as links",
+          "answer": "Images can be used as links by wrapping the `<img>` tag inside an `<a>` tag. This allows users to click on the image and navigate to a different page or URL. The `<a>` tag's `href` attribute specifies the destination URL."
+        },
+        {
+          "question": "Image map",
+          "answer": "An image map is a single image with multiple clickable areas that link to different pages or URLs. Image maps are created using the `<map>` and `<area>` tags in HTML. The `<map>` tag is used to define the image map and the `<area>` tag is used to define the clickable areas, each with its own `href` attribute specifying the destination URL."
+        },
+        {
+            "question": "Adding video to web pages",
+            "answer": "Video can be added to HTML pages using the `<video>` tag. The `<video>` tag has a `src` attribute that specifies the URL of the video file and the `controls` attribute that adds controls such as play, pause, and volume. HTML5 also supports video format such as MP4, WebM, and Ogg. You can specify multiple sources for the same video with different formats for better browser compatibility."
+          },
+          {
+            "question": "Adding audio to web pages",
+            "answer": "Audio can be added to HTML pages using the `<audio>` tag. The `<audio>` tag has a `src` attribute that specifies the URL of the audio file and the `controls` attribute that adds controls such as play, pause, and volume. HTML5 also supports audio formats such as MP3, WAV, and Ogg. You can specify multiple sources for the same audio with different formats for better browser compatibility."
+          },
+          {
+            "question": "Tables in HTML",
+            "answer": "Tables can be used to display data in a grid format in HTML. Tables are created using the `<table>` tag and each row is denoted using the `<tr>` tag. Each cell in a row is denoted using the `<td>` tag and the header cells are denoted using the `<th>` tag. Tables can be styled using CSS to change the look and feel."
+          },
+          {
+            "question": "HTML FORMS",
+            "answer": "HTML forms are used to gather user inputs and send the data to a server for processing. Forms are created using the `<form>` tag and different form elements such as text fields, checkboxes, radio buttons, dropdown menus, and buttons can be added using respective tags such as `<input>`, `<select>`, and `<textarea>`. The `action` attribute of the `<form>` tag specifies the URL of the server that will process the form data and the `method` attribute specifies the HTTP method used to submit the data."
+          },
+          {
+            "question": "HTML5 enhancements in form",
+            "answer": "HTML5 has introduced several enhancements to forms, including new form elements such as `<date>`, `<time>`, `<email>`, `<url>`, and `<search>`. HTML5 also introduced attributes such as `required`, `placeholder`, and `pattern` that can be used to validate user inputs on the client-side before submitting the form to the server. Additionally, HTML5 introduced the `<datalist>` element that allows users to select from a predefined list of options while also allowing them to enter a custom value."
+          },
+          {
+            "question": "Write accessible HTML using Semantic HTML tags.",
+            "answer": "Semantic HTML is a way of writing HTML that emphasizes the meaning of the content over its presentation. Semantic HTML uses tags that describe the purpose of the content, such as `<header>`, `<nav>`, `<main>`, `<article>`, `<section>`, `<aside>`, `<footer>`, and others, rather than generic tags such as `<div>` and `<span>`. This makes it easier for assistive technologies, such as screen readers, to understand the content and provide a better experience"
+          }
+    ]
+         
+      
+}

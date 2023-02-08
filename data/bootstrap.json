@@ -1,0 +1,48 @@
+{
+    "questions": [
+        {
+            "question": "Explain the core concept of Bootstrap 5",
+            "answer": "Bootstrap 5 is the latest version of the popular open-source front-end framework for faster and easier web development. It provides a responsive grid system, pre-designed UI components, and CSS and JavaScript plugins to create user-friendly and mobile-first websites. Bootstrap 5 makes it easy to develop and maintain consistent look and feel across multiple pages and devices."
+        },
+        {
+            "question": "Layout and style your website using Bootstrap 5",
+            "answer": "Bootstrap 5 provides a responsive grid system to easily structure the layout of a website into rows and columns. It also offers various classes and utilities to style the content and make it visually appealing. The breakpoints, containers, grid, columns, gutters, utilities, and Z-index can be used to customize the layout and style of the website. Additionally, CSS Grid can also be used to create advanced and custom grid layouts."
+        },
+        {
+            "question": "Style and populate your website using Bootstrap’s utility classes and components",
+            "answer": "Bootstrap 5 includes various utility classes and components to easily add and style content on a website. These include components like alerts, badges, breadcrumb, buttons, cards, dropdowns, modals, navbar, progress bars, toasts, and tooltips, among others. These components can be used to quickly add functional and visually appealing elements to the website."
+        },
+        {
+            "question": "Breakpoints",
+            "answer": "Breakpoints define the point at which the layout of a website changes based on the screen size of the device. There are five pre-defined breakpoints in Bootstrap to target specific screen sizes: xs (extra small), sm (small), md (medium), lg (large), and xl (extra large). These breakpoints allow developers to create different styles for different screen sizes and make the website responsive."
+        },
+        {
+            "question": "Containers",
+            "answer": "Containers are the main structure element in Bootstrap. They provide a central container for the content of a website and help to keep the content aligned and properly spaced. There are two types of containers in Bootstrap: a fixed-width container and a full-width container. The fixed-width container is set to a specific width and the full-width container takes up the full width of the screen."
+        },
+        {
+            "question": "Grid",
+            "answer": "The grid system in Bootstrap is used to create a structure of rows and columns for the content of a website. The grid is based on a 12-column layout, and the content can be divided into any number of columns by using classes. The grid system makes it easy to create a responsive website that adjusts to different screen sizes."
+        },
+        {
+            "question": "Columns",
+            "answer": "Columns are the individual units within the Bootstrap grid system. The content is placed within columns and the number of columns used determines the layout of the content. The classes used to specify the number of columns depend on the screen size and the desired layout."
+        },
+        {
+            "question": "Gutters",
+            "answer": "Gutters are the space between the columns in the Bootstrap grid system. They provide visual separation between the columns and help to align the content. The size of the gutters can be customized using classes or by modifying the CSS."
+        },
+        {
+            "question": "Utilities",
+            "answer": "Utilities in Bootstrap are classes used to quickly apply common styles to elements. These include classes for text alignment, float, display, padding, margin, and more. Utilities are a convenient way to add styles to elements without having to write custom CSS."
+        },
+        {
+            "question": "Z-index",
+            "answer": "The Z-index property in Bootstrap sets the stacking order of elements on a web page. Elements with a higher Z-index are displayed in front of elements with a lower Z-index. Bootstrap provides classes for controlling the Z-index of elements, making it easy to ensure that elements are displayed in the desired order."
+        },
+        {
+            "question": "CSS Grid",
+            "answer": "CSS Grid is a layout system for creating two-dimensional layouts in CSS. It provides a powerful and flexible way to create custom grid layouts. Bootstrap provides the option to use CSS Grid to create custom grid layouts, in addition to the responsive grid system based on 12 columns. CSS Grid can be used for more advanced and custom grid layouts."
+        }
+    ]
+}
