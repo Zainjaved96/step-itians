@@ -117,6 +117,10 @@ body {
     color: aliceblue;
     font-size: 1.5rem;
     font-weight: 500;
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 /* Text in Project Cards */
@@ -144,6 +148,14 @@ body {
 .accordion-button:focus {
     border-color: #3f065a ;
 }
+
+
+.feature {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
 
 
 
