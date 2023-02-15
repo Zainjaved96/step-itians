@@ -5,6 +5,8 @@ var bsList = document.getElementById("learning-bs")
 var jsList = document.getElementById("learning-js")
 console.log(htmlList);
 
+// Adding Home on 
+
 
 // Fetching HTML JSON file
 

@@ -5,6 +5,7 @@
 
 body {
     background-color: #94d8cd;
+    overflow-x: hidden;
 }
 
 
@@ -168,3 +169,85 @@ body {
     padding: 0.3rem;
 }
 /* Footer Styling ends */
+
+
+/* Animations */
+
+@keyframes body-fade-in {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, -20px, 0px);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes fade-up {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px, 100%, 0px);
+    }
+    
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  @keyframes slide-right {
+    0% {
+      opacity: 0;
+      transform: translate3d(0px,20%, 0px)
+    }
+    
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  
+  @keyframes slide-left {
+    0% {
+      opacity: 0;
+      transform: translate3d(20%,0px , 0px)
+    }
+    
+    100% {
+      opacity: 1;
+      transform: none;
+    }
+  }
+  
+
+
+
+.main-img {
+    animation-fill-mode: both;
+    animation-delay: 0ms;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: slide-right;
+}
+
+.main-text {
+    animation-fill-mode: both;
+    animation-delay: 0ms;
+    animation-duration: 1500ms;
+    animation-iteration-count: 1;
+    opacity: 1;
+    animation-name: slide-left;
+}
+
+.projects {
+    animation-fill-mode: both;
+    animation-delay: 0ms;
+    animation-duration: 1000ms;
+    animation-iteration-count: 1;
+    opacity: 0.8;
+    animation-name: fade-up;
+}
